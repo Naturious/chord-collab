@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.chord-chart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.measure {
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.chord {
+  font-family: 'Arial', sans-serif;
+  margin: 5px 0;
+}
+

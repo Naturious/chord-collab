@@ -1,0 +1,19 @@
+{
+  "title": "Autumn Leaves",
+  "key": "E minor",
+  "tempo": 120,
+  "style": "Jazz",
+  "structure": [
+    { "section": "A", "bars": 8 },
+    { "section": "B", "bars": 8 },
+    { "section": "A", "bars": 8 }
+  ],
+  "measures": [
+    [
+      { "chord": "Em7", "duration": "1" },
+      { "chord": "Gmaj7", "duration": "1" },
+      { "chord": "Am7", "duration": "1" },
+      { "chord": "B7", "duration": "1" }
+    ]
+  ]
+}
