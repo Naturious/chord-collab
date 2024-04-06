@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../App/App.css';
 
 interface IChord {
   chord: string;

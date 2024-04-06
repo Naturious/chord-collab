@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
- import  {ChordChart}  from "./ChordChart";
-import  {ISong} from "./ChordChart";
-// @ts-ignore
+ import  {ChordChart}  from "../ChordChart/ChordChart";
+import  {ISong} from "../ChordChart/ChordChart";
 
 const songData: ISong = {
   "title": "Autumn Leaves",
