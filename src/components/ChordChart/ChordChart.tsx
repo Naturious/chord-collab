@@ -64,7 +64,7 @@ const formatChord = (chord: string): string => {
 
 export const ChordChart: React.FC<IChordChartProps> = ({ song }) => {
   const measuresPerRow = 4;
-  const rows = [];
+  const rows: IMeasure[][] = [];
   const timeSignature = song.timeSignature || "4/4";
   
   for (let i = 0; i < song.measures.length; i += measuresPerRow) {
