@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
- import  {ChordChart}  from "../ChordChart/ChordChart";
-import  {ISong} from "../ChordChart/ChordChart";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ISong } from "../ChordChart/ChordChart";
+import { ChordPage, ChordPage2 } from '../Pages/ChordPages';
 
 const songData: ISong = {
   "title": "All The Things You Are",
@@ -44,25 +45,16 @@ const songData: ISong = {
 }
 
 const App: React.FC = () => {
-  // const [song, setSong] = useState<ISong>(songData);
-  //
-  // useEffect(() => {
-  //   // If fetching from an API:
-  //   // fetch('url-to-your-song.json')
-  //   //   .then((response) => response.json())
-  //   //   .then((data) => setSong(data as ISong))
-  //   //   .catch((error) => console.error('Error fetching song data:', error));
-  //
-  //   // If using a local JSON file:
-  //   setSong(songData as ISong);
-  // }, []);
-
   return (
-    <div className="App">
-      <ChordChart song={songData} />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<ChordPage songData={songData} />} />
+          <Route path="/page2" element={<ChordPage2 songData={songData} />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
-
 
 export default App;
