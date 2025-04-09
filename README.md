@@ -6,7 +6,7 @@ React application to collaborate on chords charts.
 
 In the project directory, you can run:
 
-### `npm start`
+### `npM start`
 
 ### `npm test`
 

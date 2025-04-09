@@ -17,30 +17,46 @@ const songData: ISong = {
     { "section": "C", "bars": 8 }
   ],
   "measures": [
-    {"chords": [
-      { "chord": "Fm7", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "Bbm7", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "Eb7", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "AbMaj7", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "DbMaj7", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "Dm7b5", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "G7", "duration": "4" }
-    ]},
-    {"chords": [
-      { "chord": "CMaj7", "duration": "4" }
-    ]}
+    {
+      "chords": [
+        { "chord": "Fm7", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "Bbm7", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "Eb7", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "AbMaj7", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "DbMaj7", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "Dm7b5", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "G7", "duration": "4" }
+      ]
+    },
+    {
+      "chords": [
+        { "chord": "CMaj7", "duration": "4" }
+      ]
+    }
   ]
 }
 
