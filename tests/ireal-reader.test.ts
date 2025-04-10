@@ -7,6 +7,7 @@ describe('iReal Reader Tests', () => {
 
     expect(result).toBeDefined();
     expect(Array.isArray(result.songs)).toBe(true);
+    console.log(result.songs[0].music.measures);
     expect(result.songs[0]).toMatchObject({
       title: 'Sir Duke',
       composer: 'Wonder Stevie',
